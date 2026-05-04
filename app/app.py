@@ -1,6 +1,6 @@
 
 from flask import Flask, request, jsonify
-from model import predict
+from app.model import predict
 
 app = Flask(__name__)
 
